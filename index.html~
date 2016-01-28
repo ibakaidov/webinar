@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Доклад по АК</title>
+
+    
+    <meta name="author" content="ibakaidov">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <h2>Альтарнативная коммуникация и прикладное программирование</h2>
+                <h4>Мои идеи и наработки в этой сфере.</h4>
+                <p>
+                    <small><a href="http://vk.com/ibakaidov">Иван Бакаидов</a> / <a href="http://twitter.com/ibakaidov">@ibakaidov</a></small>
+                </p>
+            </section>
+                <section>
+                    <h3>Как выглядит человек с недостаком общения</h3>
+
+                    <img src="http://3.bp.blogspot.com/-Jo-2PzycBJQ/Vid-cRv8fcI/AAAAAAAAIro/o8FsTRxkZpc/s1600/illjustracija-geroj-nashego-vremeni-P-Pavlinov-Pechorin.JPG">
+                </section>
+            <section>
+                <section>
+                    <h3>Disqwerty</h3>
+                    <p>
+                        Начать думаю нужно с моей и главной разработки в этой сфере - DisQwerty.
+                    </p>
+                    <img src="imgs/disqwerty-now.jpg">
+                </section>
+            <section>
+                <h3>с чего все началось.</h3>
+<p>Летом мне было очень скучно, шли дожди. Я разрабатывал ныне покойный проект photoloc.ru. Карта где можно отметить крутое место для фото, и мне нужно было проверить возможность языка JavaScript, а уже хорошо написанный проект ломать не хотелось. По этому я создал второй проект, идею подала ученица 2-3 класса, Ангелина Титова. Думаю многие в зале знают, что это клавиатура, которая управляется одной кнопкой.</p> 
+           <p>P.s. Проект photoloc.ru не набрал свою массу клиентов и нам надоело платить за хостинг.</p>
+            </section>
+            <section>
+                <h3>Что она умеет?</h3>
+                <p>
+                    Я думаю DisQwerty не стала так популярна, будь она просто клавиатурой с возможностью ввода одной кнопкой (далее буду сокращать до ВОК). Данные клавиатуры есть в стардатных возможностях многих опериционных систем.<br>И так, какие плюсы я вижу:
+                    <small>
+                    <ul>
+                        <li>Возможность создавать свои наборы. Например: только цифравая клавиатура или ответная карточка.</li>
+                        <li>Озвучка того, что печатается (сервисами Google translate).</li>
+                        <li>Гибкость настройки. Вы всегда сможете мне написать вашу задачу, я ее реализую в течении недели.</li>
+                        <li>Убирает при вводе буквы, которые не могут быть дальше в слове.</li>
+                        <li>Есть android-приложение.</li>
+                        <li>Бесплатно. :-)</li>
+                        
+                    </ul>
+                    </small>
+                </p>
+            </section>
+            <section>
+                <h3>Над чем я сейчас работаю?</h3>
+                <p>DisQwerty имеет два направления развития. Первый - добавление функционала, убыстряющего ввод, путем добавления функций. Второй - приспособление под конкретного ребенка.<br>Над чем я сейчас работаю:</p>
+                <small>
+                    <ul>
+                        <li>Внедрение клавиатуры в работу с детьми (занимаюсь этим прямо сейчас ;-) )</li>
+                        <li>Внедрение функции яндекс.предикт для Т9 ввода.</li>
+                        <li>Работа с кодом программы: <ul >
+                            <li>Привидение его в пригодный вид для работы в команде.</li>
+                            <li>Создание модульной системы функционала. Чтобы можно было собрать клавиатуру под ребенка без меня.</li>
+                        </ul></li>
+                        <li>Поиск денег на разработку.</li>
+                    </ul></small>
+            </section>
+            <section>
+                <h3>Где взять?</h3>
+                <p>У меня. Пока не разработана модальная система вам будет трудно выбрать нужную версию продукта. Я всегда буду рад вам выслать нужную версию. Конктакты будут на последнем слайде.
+                </ul>
+            </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Помимо DisQwerty</h3>
+                    <p>Сейчас я расскажу о своих идеях в АК с точки зрения программирования.</p>
+                </section>
+                <section>
+                    <h3>Сложность разработок?</h3>
+                    <p>Сложно ли писать программы? Конечно нет, эта сфера требует максимум решений линейных уравнений. Задачи не сложны. Пожалуйста, не думайте, что я сильно напрягаюсь. Я улучшаю карму, мне нравится этим заниматься.</p>
+                </section>
+                <section>
+                    <h3>Не большие эксперементы.</h3>
+                    <p>Сейчас я расскажу о своих разрабоктах. Точнее набросках. После доклада Вы можете попросить у меня показать отдельную разработку.</p>
+                    <small>
+                        <ul>
+                            <li>DisType - окно ввода с фукцией Т9 и чтением вслух напечатаного.</li>
+                            <li>Не значительные программы для упращения работы с компьютером.</li>
+                        </ul></small>
+                </section>
+                <section>
+                    <h3>Как удобно оформить заявку на разработку программы.</h3>
+                    <p>У вас, наверно, много идей, какие программы вам нужны. Давайте я их реализую, пишите на почту или в ВК. Конктакты будут на последнем слайде.</p>
+                    <small>
+                        <ul>
+                            <li>Опериционная система под которой будет работать программа. Linux или Windows. Под mac os умею писать только в теории, но нсли мне дать mac os, я ее быстро освою.</li>
+                            <li>Кодовое название: Dis..., используйте английский, мне будет так удобнее</li>
+                            <li>Ваша идея, подробно.</li>
+                            <li>Спешность.</li>
+                            <li>И кто вы?</li>
+                        </ul></small>
+                </section>
+            </section>
+
+            <section style="text-align: left;">
+                <h1>Конец</h1>
+                <p><br>Контакты:</p>
+                <ul>
+                    <li><a href="//vk.com/ibakaidov">vk.com/ibakaidov</a></li>
+                    <li><a href="mail:p@ibakaidov.ru">p@ibakaidov.ru</a></li>
+                    <li><a href="mail:ibakaidov@ya.ru">ibakaidov@ya.ru</a></li>
+                </ul>
+                </p>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // Full list of configuration options available at:
+         // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+                {
+                    src: 'lib/js/classList.js',
+                    condition: function () {
+                        return !document.body.classList;
+                    }
+                },
+                {
+                    src: 'plugin/markdown/marked.js',
+                    condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: 'plugin/markdown/markdown.js',
+                    condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true,
+                    condition: function () {
+                        return !!document.querySelector('pre code');
+                    },
+                    callback: function () {
+                        hljs.initHighlightingOnLoad();
+                    }
+                },
+                {
+                    src: 'plugin/zoom-js/zoom.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                }
+    ]
+        });
+    </script>
+
+</body>
+
+</html>
